@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="image0">@drawable/image0</string>
+    <string name="event">@drawable/event</string>
+    <integer-array name="image_list">
+        <item>@drawable/image1</item>
+        <item>@drawable/image2</item>
+        <item>@drawable/image3</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image4</item>
+        <item>@drawable/image4</item>
+
+    </integer-array>
+    <string-array name="cla_array">
+        <item>全部</item>
+        <item>社團活動</item>
+        <item>系上活動</item>
+        <item>通識課程</item>
+        <item>校內活動</item>
+        <item>說明會</item>
+    </string-array>
+
+
+
+    <string-array name="con_array">
+        <item>熱舞社成發</item>
+        <item>鋼琴研究社成發</item>
+        <item>資管之夜</item>
+        <item>資管電競盃</item>
+        <item>(高教深耕)(通識自主學習)111-2圖書館線上英文讀書會-學生自組</item>
+        <item>(高教深耕)【創發0-1系列講座】少子女化的現象去反思未來的居住課題</item>
+        <item>五燈獎</item>
+        <item>校園演唱會</item>
+        <item>(高教深耕)113年高教深耕計畫經費規劃說明會</item>
+        <item>113學年度科學園區人才培育補助計畫培育學校申請作業說明會</item>
+    </string-array>
+
+
+    <string-array name="text_array">
+        <item>熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社熱舞社</item>
+        <item>鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社鋼琴研究社</item>
+        <item>資管之夜資管之夜資管之夜資管之夜資管之夜資管之夜資管之夜資管之夜資管之夜資管之夜資管之夜</item>
+        <item>資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃資管電競盃</item>
+        <item>在邁向雙語國家的路上，你準備好了嗎？想提升英文能力，廣泛閱讀非常重要。歡迎報名參加英文讀書會活動，你可以和同學自己組織英文讀書會，小組自行找討論的時段，有意者請下載「學生自組英文讀書會申請表」，email跟圖書館報名，報名時間：即日起至3月12日(日)截止。</item>
+        <item>少子女化的現象去反思未來的居住課題少子女化的現象去反思未來的居住課題少子女化的現象去反思未來的居住課題少子女化的現象去反思未來的居住課題少子女化的現象去反思未來的居住課題</item>
+        <item>五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎五燈獎</item>
+        <item>校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會校園演唱會</item>
+        <item>(高教深耕)113年高教深耕計畫經費規劃說明會(高教深耕)113年高教深耕計畫經費規劃說明會(高教深耕)113年高教深耕計畫經費規劃說明會(高教深耕)113年高教深耕計畫經費規劃說明會(高教深耕)113年高教深耕計畫經費規劃說明會(高教深耕)113年高教深耕計畫經費規劃說明會(高教深耕)113年高教深耕計畫經費規劃說明會(高教深耕)113年高教深耕計畫經費規劃說明會</item>
+        <item>113學年度科學園區人才培育補助計畫培育學校申請作業說明會113學年度科學園區人才培育補助計畫培育學校申請作業說明會113學年度科學園區人才培育補助計畫培育學校申請作業說明會113學年度科學園區人才培育補助計畫培育學校申請作業說明會113學年度科學園區人才培育補助計畫培育學校申請作業說明會113學年度科學園區人才培育補助計畫培育學校申請作業說明會113學年度科學園區人才培育補助計畫培育學校申請作業說明會</item>
+    </string-array>
+
+</resources>

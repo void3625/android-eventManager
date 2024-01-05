@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".SecActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:id="@+id/textview"
+        android:fontFamily="@font/yu_pearl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_name"
+        android:inputType="textPersonName"
+        android:hint="請輸入姓名"
+        android:ems="10"
+        android:fontFamily="@font/yu_pearl"
+        app:layout_constraintTop_toTopOf="@+id/textview"
+        app:layout_constraintBottom_toBottomOf="@+id/textview"
+        app:layout_constraintStart_toEndOf="@+id/textview"
+        android:layout_marginStart="8dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:text="電話"
+        android:fontFamily="@font/yu_pearl"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/textview"
+        app:layout_constraintTop_toBottomOf="@+id/textview"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_phone"
+        android:inputType="phone"
+        android:hint="請輸入電話"
+        android:ems="10"
+        android:fontFamily="@font/yu_pearl"
+        app:layout_constraintTop_toTopOf="@+id/textview2"
+        app:layout_constraintBottom_toBottomOf="@+id/textview2"
+        app:layout_constraintStart_toEndOf="@+id/textview2"
+        android:layout_marginStart="8dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_send"
+        android:text="確認新增"
+        android:fontFamily="@font/yu_pearl"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/textview2"
+        app:layout_constraintTop_toBottomOf="@+id/ed_phone"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

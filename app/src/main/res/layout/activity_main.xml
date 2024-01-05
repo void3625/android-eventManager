@@ -1,0 +1,121 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 主要內容 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background"> <!-- 設置背景顏色 -->
+
+        <!-- 占位視圖以推動標題 -->
+        <View
+            android:id="@+id/viewSpacer"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"/>
+
+        <!-- 標題 -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中原大學\n活動系統"
+            android:fontFamily="@font/yu_pearl"
+            android:textStyle="bold"
+            android:textSize="58sp"
+            android:textColor="#0270f5"
+            android:layout_below="@id/viewSpacer"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- 帳號輸入框 -->
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/edittext_background"
+            android:hint="帳號"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- 密碼輸入框 -->
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextUsername"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/edittext_background"
+            android:hint="密碼"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- 登入按鈕 -->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPassword"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@color/buttonColor"
+            android:padding="16dp"
+            android:text="登入"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonLogin"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <!-- 忘記密碼 -->
+
+            <TextView
+                android:id="@+id/textViewForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘記密碼？"
+                android:textColor="#FF008000"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0" />
+
+            <!-- 尚未註冊 -->
+            <TextView
+                android:id="@+id/textViewRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="尚未註冊？"
+                android:textColor="#FF008000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <!-- 左上角三條線圖標 -->
+        <!-- 圖標設置保持不變 -->
+
+    </RelativeLayout>
+
+    <!-- 側邊選單設置保持不變 -->
+</androidx.drawerlayout.widget.DrawerLayout>

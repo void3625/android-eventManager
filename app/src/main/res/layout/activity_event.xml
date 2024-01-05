@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F2F2F2">
+
+    <!-- 圖片 -->
+    <ImageView
+        android:id="@+id/activityImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/event"
+        android:background="#CCCCCC"/>
+
+    <!-- 活動簡介文字 -->
+    <TextView
+        android:id="@+id/activityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/yu_pearl"
+        android:padding="1dp"
+        android:text="活動標題"
+        android:textColor="#333333"
+        android:textSize="40sp" />
+
+    <!-- 活動簡介文字 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/activityDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="在這裡輸入活動簡介的文字"
+            android:fontFamily="@font/yu_pearl"
+            android:textSize="20sp"
+            android:textColor="#333333"/>
+    </ScrollView>
+
+    <!-- 報名按鈕 -->
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="報名參加"
+        android:fontFamily="@font/yu_pearl"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/pink"
+        android:elevation="2dp"/>
+
+</LinearLayout>
+
+
